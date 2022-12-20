@@ -8,14 +8,14 @@ html {
 }
 
 body {
-  font-family: Lora, serif;
   background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+  font-family: Cairo, sans-serif;
 }
 
 header {
   margin-top: 8px;
   text-align: center;
-  font-family: Bungee Shade, cursive;
+  font-family: Bungee Shade, sans-serif;
   font-size: 2.8em;
   color: white;
 }
@@ -29,7 +29,7 @@ header {
 #board-size {
   width: 126px;
   height: 24px;
-  margin-right: 8px;
+  margin-left: 12px;
   border: 1px solid black;
   font-family: Cairo, sans-serif;
 }
@@ -52,6 +52,8 @@ header {
 #title {
   text-align: center;
   display: block;
+  font-weight: 700;
+  color: white;
 }
 
 .color {
