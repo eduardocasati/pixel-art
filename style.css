@@ -4,12 +4,13 @@
 }
 
 body {
-  
+  font-family: Lora, serif;;
 }
 
 header {
   text-align: center;
-  font-size: 1.5em;
+  font-family: Finger Paint, cursive;
+  font-size: 2.5em;
 }
 
 #inputSection {
@@ -24,7 +25,6 @@ header {
 }
 
 #board-size::placeholder {
-  width: 120px;
   margin-right: 8px;
   font-size: 12px;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 #generate-board {
-  width: 63px;
+  
 }
 
 #color-palette {
@@ -64,7 +64,7 @@ header {
 
 #button-random-color , #clear-board {
   text-align: center;
-  margin: 2px 16px;
+  margin: 2px 8px;
   padding: 4px 8px;
 }
 

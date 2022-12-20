@@ -11,7 +11,7 @@ const createColorPalleteContainer = () => {
 // REQUISITOS 2 e 3
 const createColorPallete = () => {
   const getDivColorPallete = document.getElementById('color-palette');
-  for (let index = 0; index < 4; index += 1) {
+  for (let index = 0; index < 5; index += 1) {
     const addDivsColors = document.createElement('div');
     getDivColorPallete.appendChild(addDivsColors).className = 'color';
   }
@@ -39,7 +39,10 @@ const paintColorPallete = () => {
   for (let index = 0; index < getColors.length; index += 1) {
     if (index === 0) {
       getColors[index].style.backgroundColor = 'black';
-    } else {
+    } else if (index === 1) {
+      getColors[index].style.backgroundColor = 'white';
+    }
+    else {
       getColors[index].style.backgroundColor = createRandomColor();
     }
   }
@@ -53,7 +56,7 @@ const createBtnRandomColors = () => {
   getSectionColorPallete.appendChild(addDiv).id = 'btnContainer';
   const getBtnContainer = document.getElementById('btnContainer');
   const addBtn = document.createElement('button');
-  addBtn.innerHTML = 'Cores aleatórias';
+  addBtn.innerHTML = 'Gerar cores aleatórias';
   getBtnContainer.appendChild(addBtn).id = 'button-random-color';
 };
 
@@ -142,7 +145,7 @@ const paintPixel = () => {
 const createBtnClearBoard = () => {
   const getBtnContainer = document.getElementById('btnContainer');
   const addBtn = document.createElement('button');
-  addBtn.innerHTML = 'Limpar';
+  addBtn.innerHTML = 'Limpar o board';
   getBtnContainer.appendChild(addBtn).id = 'clear-board';
 };
 
@@ -192,7 +195,7 @@ const boardSizeInput = () => {
   // cria botão
   const createBoardSizeBtn = document.createElement('button');
   getSectionInput.appendChild(createBoardSizeBtn).id = 'generate-board';
-  document.getElementById('generate-board').innerHTML = 'VQV';
+  document.getElementById('generate-board').innerHTML = 'Mudar';
 };
 
 // Função que muda o tamanho do board
@@ -201,7 +204,7 @@ const changeBoardSize = () => {
   getVQVBtn.addEventListener('click', () => {
     const getBoardSizeInput = document.getElementById('board-size').value;
     if (getBoardSizeInput === '') {
-      alert('Board inválido!');
+      alert('Escolha um valor!');
     } else {
       localStorage.removeItem('pixelBoard');
       savedPixelsColors = []; // deixa o array inteiro 'white'
