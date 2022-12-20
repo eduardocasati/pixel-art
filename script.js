@@ -185,17 +185,18 @@ const boardSizeInput = () => {
   const getMain = document.getElementById('main');
   const createSectionInput = document.createElement('section');
   getMain.appendChild(createSectionInput).id = 'inputSection';
-  // cria input
   const getSectionInput = document.getElementById('inputSection');
+  // cria botão
+  const createBoardSizeBtn = document.createElement('button');
+  getSectionInput.appendChild(createBoardSizeBtn).id = 'generate-board';
+  document.getElementById('generate-board').innerHTML = 'Mudar';
+  // cria input
   const createInput = document.createElement('input');
   getSectionInput.appendChild(createInput).id = 'board-size';
   document.getElementById('board-size').placeholder = 'tamanho do board';
   document.getElementById('board-size').type = 'number';
   document.getElementById('board-size').min = '1';
-  // cria botão
-  const createBoardSizeBtn = document.createElement('button');
-  getSectionInput.appendChild(createBoardSizeBtn).id = 'generate-board';
-  document.getElementById('generate-board').innerHTML = 'Mudar';
+  
 };
 
 // Função que muda o tamanho do board
