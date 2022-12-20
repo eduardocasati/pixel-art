@@ -10,7 +10,9 @@ body {
 header {
   text-align: center;
   font-family: Finger Paint, cursive;
-  font-size: 2.5em;
+  font-size: 2.8em;
+  letter-spacing: -8px;
+  margin-top: 8px;
 }
 
 #inputSection {
@@ -20,7 +22,7 @@ header {
 }
 
 #board-size {
-  width: 120px;
+  width: 126px;
   margin-right: 8px;
 }
 
@@ -58,6 +60,11 @@ header {
   cursor: pointer;
 }
 
+.selected {
+  height: 44px;
+  width: 44px;
+}
+
 #btnContainer {
   text-align: center;
 }
@@ -90,4 +97,5 @@ header {
   width: 40px;
   border: 1px solid black;
   cursor: crosshair;
+  margin: -1px;
 }
