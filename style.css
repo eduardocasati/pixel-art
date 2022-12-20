@@ -3,8 +3,13 @@
   margin: 0;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
-  font-family: Lora, serif;;
+  font-family: Lora, serif;
+  background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
 }
 
 header {
@@ -34,10 +39,6 @@ header {
 #board-size , #generate-board {
   text-align: center;
   padding: 4px 8px;
-}
-
-#generate-board {
-  
 }
 
 #color-palette {
@@ -75,13 +76,43 @@ header {
   padding: 4px 8px;
 }
 
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.25em 0.75em;
+  }
+}
+
 #pixel-board {
   margin: auto;
   width: max-content;
   margin-top: 24px;
   border: none;
-  padding: 20px;
-  background-color: aqua;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .pixel-board-lines {
