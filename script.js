@@ -293,12 +293,12 @@ const getBoardSize = () => {
 
 // =================== //
 window.onload = () => {
-  boardSizeInput();
   createColorPalleteContainer();
   createColorPallete();
   createRandomColor();
   createBtnRandomColors();
   clickBtnRandomColors();
+  boardSizeInput();
 
   if (localStorage.getItem('colorPalette') === null) {
     paintColorPallete();
@@ -311,6 +311,7 @@ window.onload = () => {
   } else {
     getBoardSize();
   }
+
   changeBoardSize();
 
   if (localStorage.getItem('pixelBoard') === null) {

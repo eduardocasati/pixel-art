@@ -13,11 +13,11 @@ body {
 }
 
 header {
-  text-align: center;
-  font-family: Finger Paint, cursive;
-  font-size: 2.8em;
-  letter-spacing: -8px;
   margin-top: 8px;
+  text-align: center;
+  font-family: Bungee Shade, cursive;
+  font-size: 2.8em;
+  color: white;
 }
 
 #inputSection {
@@ -28,12 +28,15 @@ header {
 
 #board-size {
   width: 126px;
+  height: 24px;
   margin-right: 8px;
+  border: 1px solid black;
+  font-family: Cairo, sans-serif;
 }
 
 #board-size::placeholder {
-  margin-right: 8px;
-  font-size: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 #board-size , #generate-board {
@@ -77,16 +80,15 @@ header {
 }
 
 button {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: Cairo, sans-serif;
+  font-size: 12px;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
   border: 3px solid;
-  padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  box-shadow: -1px 1px 0px 0px, -2px 2px 0px 0px, -3px 3px 0px 0px, -4px 4px 0px 0px, -5px 5px 0px 0px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
@@ -96,7 +98,7 @@ button {
 button:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
-  left: 5px;
+  right: 5px;
 }
 
 @media (min-width: 768px) {
@@ -110,8 +112,6 @@ button:active {
   width: max-content;
   margin-top: 24px;
   border: none;
-  padding: 16px;
-  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
