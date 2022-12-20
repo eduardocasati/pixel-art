@@ -80,6 +80,8 @@ header {
   width: max-content;
   margin-top: 24px;
   border: none;
+  padding: 20px;
+  background-color: aqua;
 }
 
 .pixel-board-lines {
