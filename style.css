@@ -71,25 +71,17 @@ header {
   width: 25px;
   height: 25px;
   border: solid 1px black;
-  /* border-radius: 50%; */
   cursor: pointer;
 }
 
 .color:hover {
-  transform: scale(1.40);
+  transform: scale(1.40) rotate(90deg);
   transition-duration: 0.2s;
-  border: solix 1px black;
-}
-
-.color:active {
-  transform: scale(1.40);
-  transition-duration: 0.3s;
-  border: solix 1px black;
+  
 }
 
 .selected {
   transform: scale(1.40);
-  border: solix 1px black;
 }
 
 #btnContainer {
@@ -132,8 +124,8 @@ button:active {
 
 #pixel-board {
   margin: auto;
-  width: max-content;
   margin-top: 24px;
+  width: max-content;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
 }
