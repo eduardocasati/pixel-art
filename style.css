@@ -78,6 +78,11 @@ header {
   transition-duration: 0.3s;
 }
 
+.color:active {
+  transform: scale(0.75);
+  transition-duration: 0.3s;
+}
+
 .selected {
   transform: scale(1.25);
 }
