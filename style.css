@@ -14,8 +14,7 @@ body {
   flex-direction: column;
   min-height: 100%;
   font-family: Cairo, sans-serif;
-  /* background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%); */
-  background-image: url(/images/background-image.png);
+  background-image: url(./images/background-image.png);
   background-size: cover;
   background-attachment: fixed;
   image-rendering: pixelated;
