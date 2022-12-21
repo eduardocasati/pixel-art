@@ -149,10 +149,10 @@ button:active {
 
 footer {
   margin-top: auto;
+  margin-bottom: 6px;
   bottom: 0;
   width: 100%;
   padding-top: 24px;
-  padding-bottom: 2px;
   line-height: 16px;
   text-align: center;
   font-size: 0.9em;
