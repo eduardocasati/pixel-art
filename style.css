@@ -14,17 +14,18 @@ body {
   flex-direction: column;
   min-height: 100%;
   font-family: Cairo, sans-serif;
-  background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+  /* background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%); */
+  background-image: url(/images/background-image.png);
   background-size: cover;
   background-attachment: fixed;
+  image-rendering: pixelated;
 }
 
 header {
-  margin-top: 8px;
   text-align: center;
   font-family: Bungee Shade, sans-serif;
   font-size: 2.8em;
-  color: white;
+  color: black;
 }
 
 #inputSection {
@@ -60,31 +61,35 @@ header {
   text-align: center;
   display: block;
   font-weight: 700;
-  color: white;
+  color: grey;
+  font-size: 1.2em;
 }
 
 .color {
   display: inline-block;
   margin: 8px;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   border: solid 1px black;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   cursor: pointer;
 }
 
 .color:hover {
-  transform: scale(1.25);
+  transform: scale(1.40);
   transition-duration: 0.2s;
+  border: solix 1px black;
 }
 
 .color:active {
-  transform: scale(0.95);
-  /* transition-duration: 0.3s; */
+  transform: scale(1.40);
+  transition-duration: 0.3s;
+  border: solix 1px black;
 }
 
 .selected {
-  transform: scale(1.25);
+  transform: scale(1.40);
+  border: solix 1px black;
 }
 
 #btnContainer {
@@ -130,7 +135,7 @@ button:active {
   width: max-content;
   margin-top: 24px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
 }
 
 .pixel-board-lines {
@@ -158,7 +163,7 @@ footer {
   padding-top: 24px;
   padding-bottom: 2px;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   }
 
   a {
@@ -167,6 +172,6 @@ footer {
   }
 
   a:hover {
-    color: white;
+    color: grey;
     transition-duration: 0.6s;
   }
