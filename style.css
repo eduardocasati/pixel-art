@@ -4,12 +4,19 @@
 }
 
 html {
-  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  
 }
 
 body {
-  background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: Cairo, sans-serif;
+  background-image: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -66,9 +73,13 @@ header {
   cursor: pointer;
 }
 
+.color:hover {
+  transform: scale(1.25);
+  transition-duration: 0.3s;
+}
+
 .selected {
-  height: 44px;
-  width: 44px;
+  transform: scale(1.25);
 }
 
 #btnContainer {
@@ -134,3 +145,13 @@ button:active {
   cursor: crosshair;
   margin: -1px;
 }
+
+footer {
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-size: 0.8em;
+  }
