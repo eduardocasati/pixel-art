@@ -19,4 +19,4 @@ Este projeto foi desenvolvido para o estudo e a avaliação dos seguintes conhec
 
 **Eduardo Casati**
 
-[LinkedIn](https://www.linkedin.com/in/eduardo-casati/)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/eduardo-casati/)
