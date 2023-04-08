@@ -2,7 +2,7 @@
 
 > _Este projeto foi desenvolvido na **Seção 4 - JavaScript: DOM, Eventos e Web Storage** do **Módulo de Fundamentos** da Formação em Desenvolvimento Web pela [Trybe](https://www.betrybe.com/)._
 
-- URL do projeto: [https://eduardocasati.github.io/pixels-art/](https://eduardocasati.github.io/pixels-art/)
+- URL do projeto: [https://eduardocasati.github.io/pixel-art/](https://eduardocasati.github.io/pixel-art/)
 
 ---
 
