@@ -2,9 +2,7 @@
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-> _Este projeto foi desenvolvido durante a **[Formação em Desenvolvimento Web](https://www.betrybe.com/formacao-desenvolvimento-web)** da **[Trybe](https://www.betrybe.com/)**_ </br> **Módulo: Fundamentos** </br> **Seção 4 - JavaScript: DOM, Eventos e Web Storage**
-
-<!-- > Este projeto foi desenvolvido como parte da **[Formação em Desenvolvimento Web](https://www.betrybe.com/formacao-desenvolvimento-web)** pela **[Trybe](https://www.betrybe.com/)**, no **Módulo: Fundamentos**, **Seção 4 - JavaScript: DOM, Eventos e Web Storage** -->
+> _Este projeto foi desenvolvido como parte da **[Formação em Desenvolvimento Web](https://www.betrybe.com/formacao-desenvolvimento-web)** pela **[Trybe](https://www.betrybe.com/)**, no **Módulo: Fundamentos**, **Seção 4 - JavaScript: DOM, Eventos e Web Storage**_
 
 > Live demo do projeto: [https://eduardocasati.github.io/pixel-art/](https://eduardocasati.github.io/pixel-art/)
 
