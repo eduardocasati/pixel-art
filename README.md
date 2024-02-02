@@ -246,8 +246,6 @@ Este projeto teve como objetivo consolidar e avaliar conhecimentos na seguintes 
 </details>
 </details>
 
-</br>
-
 <details>
   <summary>Requisitos Bônus</summary>
   
